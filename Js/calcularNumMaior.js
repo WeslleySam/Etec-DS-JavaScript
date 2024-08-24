@@ -23,5 +23,5 @@ else if(n3>n1 && n3>n2){
 }
 
 else{
-    alert(`o número ${n3} é maior que os números ${n1} e ${n2}.`);
+    alert(`ERRO! Os números não podem Ser iguais. `);
 }
