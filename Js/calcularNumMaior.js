@@ -10,28 +10,18 @@ const n3 = parseInt (prompt("Informe o 3º número:"));
 //Calular se todos os números são iguais, ou se existem números diferentes
 
 
-if(n1>n2){
-   alert(`o maior número é ${n1}`);
+if(n1>n2 && n1>n3){
+   alert(`o número ${n1} é maior que os números ${n2} e ${n3}.`);
    
 } 
-else if(n2>n1){
-    alert(`o maior número é ${n2}`);
+else if(n2>n1 && n2>n3){
+    alert(`o número ${n2} é maior que os números ${n1} e ${n3}.`);
+}
+    
+else if(n3>n1 && n3>n2){
+    alert(`o número ${n3} é maior que os números ${n2} e ${n1}.`);
 }
 
-else if(n2>n3){
-    alert (`o maior número é ${n2}`);
-}
-else if (n3>n2){
-    alert(`o maior número é ${n3}`);
-}
-
-
-else if(n3>n1){
-    alert (`o maior número é ${n3}`);
-}
-else if(n1>n3){
-    alert(`o maior número é ${n1}`);
-}
 else{
-    alert("ERRO!");
+    alert(`o número ${n3} é maior que os números ${n1} e ${n2}.`);
 }
