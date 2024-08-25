@@ -96,4 +96,13 @@ const dt_Nasc = (anoAtual - valor_Id);
     // Exercicio 9 - Calcular IMC
 
 const val_Alt = parseFloat (prompt("Informe sua altura"));
-const val_Peso = parseFloat (prompt("Informe sua altura"));
+const val_Peso = parseFloat (prompt("Informe seu peso"));
+const iMc = val_Peso / (val_Alt * val_Alt);
+
+if(iMc <= 16.9){
+    alert(`Muito abaixo do peso`)
+}
+else if(iMc != 17 && 18.9){
+    alert(`Abaixo do peso`)
+}
+
