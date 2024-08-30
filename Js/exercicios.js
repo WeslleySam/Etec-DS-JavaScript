@@ -22,34 +22,34 @@ const idade = prompt("por favor, informe sua idade:");
 const p1 = prompt ("Qual é a população do Brasil:");
 const br = "Brasil"
 const p2 = prompt ("qual é a população da China");
-const china = "China"
-    if(p1>p2){
-        alert(`A população do ${br} é a maior`);
-    }
-    else if(p2>p1){
-        alert(`A população da ${china} é a maior`);
-    }
-    else{
-        alert(`ERRO! as duas populações não podem ser iguais.`);
-    }
-*/
+const china = "China"*/
+    // if(p1>p2){
+    //     alert(`A população do ${br} é a maior`);
+    // }
+    // else if(p2>p1){
+    //     alert(`A população da ${china} é a maior`);
+    // }
+    // else{
+    //     alert(`ERRO! as duas populações não podem ser iguais.`);
+    // }
+
 
 //-----------------------------------------------------------------------------
 
     // Exercicio 4 - Par ou Impar
-/*
-const n1 = parseInt (prompt("Informe um valor:"));
 
-/* O operador (%) é o resto da divisão, ou seja se->(if) o valor "N1" for dividio
+//const n1 = parseInt (prompt("Informe um valor:"));
+
+/* O operador (%) é o resto da divisão, ou seja se->(if) o valor "N1" for dividido
 e o resto da divisão for "0" então esse número é Par,Senão->(else), então 
 ele é um número impar
 if(n1 % 2 === 0){
     alert(`o número ${n1} é par`)
 }
 else{
-    alert(`o número ${n1} é impar`)   
-}
-*/
+    alert(`o número ${n1} é impar`)  
+}*/
+
 
 //------------------------------------------------------------------------------
 
@@ -65,11 +65,11 @@ const salLqd = (salBrut - (salBrut * 0.1));
     // Exercicio 6 - Celcius/Fahrenheit
     //Formula -> (C * 9/5) + 32.
 
- /*
+ 
  const temp_C = parseFloat (prompt("Informe a Temperatura Cº"));
  const temp_F = (temp_C * 9/5)+32;
-    alert (`A temperatura em Fahrenheit será de: ${temp_F}`);
-*/
+    alert (`A temperatura em Fahrenheit será de: ${temp_F.toFixed(2)}`);
+
 
 //-------------------------------------------------------------------------------
 
@@ -109,8 +109,8 @@ const dt_Nasc = (anoAtual - valor_Id);
 //-------------------------------------------------------------------------------
     
     // Exercicio 9 - Calcular IMC
-/*
-const val_Alt = parseFloat (prompt("Informe sua altura"));
+
+/*const val_Alt = parseFloat (prompt("Informe sua altura"));
 const val_Peso = parseFloat (prompt("Informe seu peso"));
 const imc = val_Peso / (val_Alt * val_Alt);
 
@@ -140,8 +140,8 @@ else if (imc >= 27 && imc <= 31.9){
 }
 else{
     alert("obesidade");
-}
-*/
+}*/
+
 //-------------------------------------------------------------------------------
 
     //Exercicio 10 - Calcular a Média
